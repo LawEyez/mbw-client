@@ -37,7 +37,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="space-y-1">
+      <div className="space-y-1 lg:space-y-2">
         <p className="text-xs text-neutral-400 font-light">{contactInfo.streetAddress}</p>
         <p className="text-xs text-neutral-400 font-light">{contactInfo.email}</p>
         <p className="text-xs text-neutral-400 font-light">{contactInfo.phone} | {contactInfo.secondaryPhone}</p>
