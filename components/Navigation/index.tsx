@@ -16,10 +16,10 @@ const Navigation = () => {
       transition duration-300`}>
         <NavLink name="home" path="/" />
         <NavLink name="about" path="/about" />
-        <NavLink name="our process" path="/process" />
-        <NavLink name="what we do" path="/whatwedo" />
+        <NavLink name="our process" path="/our-process" />
+        <NavLink name="what we do" path="/what-we-do" />
         <NavLink name="testimonials" path="/testimonials" />
-        <NavLink name="team" path="/team" />
+        <NavLink name="team" path="/our-team" />
       </nav>
 
       <button

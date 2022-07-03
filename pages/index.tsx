@@ -2,6 +2,7 @@ import type { GetStaticProps, InferGetStaticPropsType, NextPage } from 'next'
 import Image from 'next/image'
 
 import Page from '@layout/Page'
+
 import Scroll from '@components/Scroll'
 
 
@@ -66,4 +67,3 @@ export const getStaticProps: GetStaticProps = async () => {
     }
   }
 }
-
