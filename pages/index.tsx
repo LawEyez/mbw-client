@@ -37,7 +37,7 @@ const Home: NextPage = ({
         flex items-center justify-center p-8">
           <Scroll />
 
-          <div className="mx-auto text-end w-[80%] md:w-[50%] xl:w-[40%]">
+          <div className="mx-auto pr-4 sm:pr-0 text-end w-[80%] md:w-[50%] xl:w-[40%]">
             <h1 className="text-6xl lg:text-7xl font-semibold tracking-tighter">{data[0].title}.</h1>
             <p className="mt-8 text-neutral-300">we sculpture entire cities.</p>
           </div>
