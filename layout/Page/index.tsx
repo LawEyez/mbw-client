@@ -1,6 +1,9 @@
 import { ReactNode } from "react"
 
 import SEO, { SEOProps } from "@components/SEO"
+import Navigation from "@components/Navigation"
+import Brand from "@components/Brand"
+
 import Footer from "@layout/Footer"
 
 
@@ -16,6 +19,9 @@ const Page = ({
   return (
     <>
       <SEO {...meta} />
+
+      <Brand />
+      <Navigation />
 
       <main className="relative bg-neutral-900 text-white min-h-screen w-full">
         {children}
