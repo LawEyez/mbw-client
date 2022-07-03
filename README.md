@@ -15,4 +15,4 @@ For yarn
   yarn add
 ```
 
-To start the application run `npm run dev` or `yarn run dev`
+To start the application run `npm run dev` or `yarn dev`

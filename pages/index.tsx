@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+
+import Page from 'layout/Page'
 
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <Page>
       Hello World
-    </div>
+    </Page>
   )
 }
 
