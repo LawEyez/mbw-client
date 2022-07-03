@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <>
       <nav className={`fixed top-0 left-0 z-50 px-8 py-10 h-screen w-full
-      flex flex-col justify-center bg-black/80 backdrop-blur ${isOpen ? 'translate-x-0' : '-translate-x-full'}
+      flex flex-col justify-center bg-black/50 backdrop-blur ${isOpen ? 'translate-x-0' : '-translate-x-full'}
       xl:translate-x-0 xl:top-1/2 xl:left-0 xl:-translate-y-1/2 xl:border-r xl:border-white/20
       xl:w-max xl:h-max xl:bg-transparent xl:backdrop-blur-none 
       transition duration-300`}>
