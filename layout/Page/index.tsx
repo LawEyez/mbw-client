@@ -1,5 +1,7 @@
-import SEO, { SEOProps } from "@components/SEO"
 import { ReactNode } from "react"
+
+import SEO, { SEOProps } from "@components/SEO"
+import Footer from "@layout/Footer"
 
 
 type PageProps = {
@@ -15,9 +17,11 @@ const Page = ({
     <>
       <SEO {...meta} />
 
-      <main className="">
+      <main className="relative bg-neutral-900 text-white min-h-screen w-full">
         {children}
       </main>
+
+      <Footer />
     </>
   )
 }
