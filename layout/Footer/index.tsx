@@ -1,13 +1,14 @@
 import Link from "next/link"
 
 import Brand from "@components/Brand"
+
 import { contactInfo } from "config"
 
 
 const Footer = () => {
   return (
     <footer id="footer" className="w-full p-8 bg-neutral-900 text-white flex flex-col justify-between lg:flex-row
-    lg:items-center lg:px-[20%] space-y-10 lg:space-y-0">
+    lg:items-center lg:px-[20%] lg:py-12 space-y-10 lg:space-y-0">
 
       <Link href='/' passHref>
         <a>
