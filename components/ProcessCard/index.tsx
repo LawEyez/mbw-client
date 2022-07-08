@@ -13,12 +13,16 @@ const ProcessCard = ({
 
   return (
     <div className='cursor-default flex flex-col items-center
-    xl:flex-row xl:items-center gap-8 w-96 xl:w-[500px]'>
-      <img
-        src={image}
-        alt={title}
-        className='absolute w-1/2 -z-[1] top-0 right-0'
-      />
+    xl:flex-row xl:items-center gap-8 w-80 xl:w-[500px]'>
+      <div className='absolute w-64 h-48 -z-[1] top-0 right-0 -translate-y-10'>
+        <img
+          src={image}
+          alt={title}
+          className='absolute h-full w-full object-cover -z-[1]'
+        />
+        
+        <div className='aboslute z-20 h-full w-full bg-black/40'/>
+      </div>
 
       <div
         className='text-6xl font-bold text-white'
@@ -31,7 +35,9 @@ const ProcessCard = ({
         after:mt-4'
         style={{ textShadow: '0 1px 5px rgba(0,0,0,.5)'}}
         >{title}</h2>
-        <p className='text-neutral-200 font-light'>{content}</p>
+        <p className='text-whitefont-light'
+        style={{ textShadow: '0 1px 5px rgba(0,0,0,.5)'}}
+        >{content}</p>
       </div>
 
     </div>

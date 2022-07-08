@@ -37,7 +37,7 @@ const OurProcess: NextPage = ({
         desc: 'Our approach to building and construction.'
       }}
     >
-      <div className="overflow-hidden h-1/2 xl:w-7/12" ref={emblaRef}>
+      <div className="overflow-hidden xl:h-1/2 xl:w-7/12" ref={emblaRef}>
         <div className="flex items-center gap-20">
           {data.sub_sections.map((item: any, i:number) => (
             <div
@@ -55,7 +55,7 @@ const OurProcess: NextPage = ({
         </div>
       </div>
 
-      <div className="flex items-center gap-4 absolute right-8">
+      <div className="flex items-center gap-4 absolute top-[15%] right-8">
         <button className="w-20 h-20 xl:w-80 xl:h-80 flex items-center justify-center border
         border-white/20 rounded-full text-xl xl:text-5xl hover:border-white hover:bg-white
         hover:text-neutral-900 mix-blend-difference transition duration-200"

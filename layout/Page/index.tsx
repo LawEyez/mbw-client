@@ -43,7 +43,7 @@ const Page = ({
           /> */}
 
           <div className="absolute z-10 h-full w-full bg-gradient-to-r from-black/80 to-black/60
-          flex items-center justify-center p-8">
+          flex items-center justify-center p-4">
             <Scroll />
 
             {children}
